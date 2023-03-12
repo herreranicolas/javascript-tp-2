@@ -1,7 +1,5 @@
 let nota = parseInt(prompt("Ingrese una nota de 0 a 10"));
 
-console.log(nota);
-
 switch (isNaN(nota) || nota) {
   case 0:
   case 1:
